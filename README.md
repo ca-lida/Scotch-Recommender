@@ -1,2 +1,14 @@
-# Scotch-Recommender
-Analysis and clustering of 86 distilleries in Scotland - Feature Engineering and Geospatial Partition Clustering
+Scotch Whisky Recommendation System
+
+Clustering Distilleries based on Geographic Distances, Flavour Profiles and feature engineered  User Preferences
+
+Motivation: To assist amateur and aspiring whisky afficionados choose their next whisky. 
+
+The Idea: Group distilleries based on their flavor profiles (obvious), proximity (natural factors may affect flavor), and reddit user preferences (if many users liked Distil A and C , but hated B and vice versa, there is probably a relationship there), generated through individual ratings of multiple distilleries. 
+
+Result: Two rounds of Hierarchy Clustering based on  feature distances that generated clusters to recommend your next distillery. 
+
+To test it out, download final_cluster.pkl and recommender_fn.py, which you can use to help select your next bottle.
+
+For more in detail statistical info on how I explored clustering mechanisms and treated the data, please see STATS. py
+
