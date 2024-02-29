@@ -10,5 +10,6 @@ Result: Two rounds of Hierarchy Clustering based on  feature distances that gene
 
 To test it out, download final_cluster.pkl and recommender_fn.py, which you can use to help select your next bottle.
 
-For more in detail statistical info on how I explored clustering mechanisms and treated the data, please see STATS. py
+For more in detail statistical info on how I explored clustering mechanisms and treated the data, please see Theory.MD 
+
 
